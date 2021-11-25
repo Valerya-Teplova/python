@@ -1,5 +1,6 @@
 # движение персонажа по координатной оси. начальная позиция (0,0)
 
+
 import turtle
 SCREEN_WIDTH = 600
 SCREEN_HEIGHT = 600
