@@ -1,0 +1,47 @@
+from Ani import animals, mammals, human, Cat, Dog
+
+
+Tiger = animals('Амур', 'Мужской', 2, 40, 34)
+print('Класс животных: Тигр')
+print('Кличка:',Tiger.name)
+print('Пол: ',Tiger.gender)
+print('Возраст: ',Tiger.age)
+print("")
+
+
+Leo = mammals('Сильва', 'Женский', 1, 15, 30, 'Домашняя', 'Черная')
+print('Класс животных: Львица')
+print('Кличка:',Leo.name)
+print('Пол: ',Leo.gender)
+print('Возраст: ',Leo.age)
+print('Порода: ',Leo.breed)
+print('Цвет животного: ',Leo.color)
+print("")
+
+Alex = human('Алексей', 'Мужской', 15, 160, 70, 300000, 'Не работает', 'Школа')
+print('Класс: Люди')
+print('Имя:',Alex.name)
+print('Пол: ',Alex.gender)
+print('Возраст: ',Alex.age)
+print("")
+
+cat = Cat('Мотя', 'Зеленые', 'Алина', 'Женский', 4, 20, 50, 'Вислаухая', 'Сероголубая')
+print('Класс: Кошка')
+print('Кличка:',cat.name)
+print('Цвет глаз:',cat.eyescolor)
+print('Хозяин:',cat.human)
+print('Пол: ',cat.gender)
+print('Возраст: ',cat.age)
+print('Порода: ',cat.breed)
+print('Цвет: ',cat.color)
+print("")
+
+dog = Dog('Рекс','Мужской', 5, 70, 40, 'Овчарка', 'Рыжий', 'Мартин')
+print("Класс: Собака")
+print("Имя: ", dog.name)
+print("Пол: ",dog.gender)
+print("Возраст: ",dog.age)
+print("Порода: ",dog.breed)
+print("Цвет:",dog.color)
+print("Хозяин: ",dog.human)
+print("")
